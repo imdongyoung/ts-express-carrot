@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2016", // JS 버전
+    "module": "commonjs", // 모듈
+    "outDir": "./dist", // 컴파일된 파일 생성 위치
+    "rootDir": "./src", // 컴파일할 소스의 폴더
+    "strict": true, // 엄격한 타입 검사
+    "esModuleInterop": true, // ES module과의 호환성 문제 해결
+    "experimentalDecorators": true, // 데코레이터 문법 사용 여부
+    "emitDecoratorMetadata": true, // 데코레이터가 붙은 클래스나 함수의 타입 정보를 런타입까지 남겨둠
+    "skipLibCheck": true // node_modules 안의 라이브러리 정의 파일(.d.ts) 검사를 건너뜀
+  }
+}
